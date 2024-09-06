@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;   
+}
+
+.primeira-sessao{
+    background-color: rgba(224, 207, 23, 0.83);
+    //largura H altura H
+    width: 450px;
+    height: 500px;
+    //aninhamento chamei a tag que estava dento da outra neste caso uma div
+    div{
+   background-color: rgba(34, 161, 87, 0.842);
+   // largura w altura h
+   // aqui usamos os valores em vw para largura e vh para altura
+   // VW e VH vão ser relativos a tela 
+   width: 50vw;
+   height: 50vh;
+    }
+}
+
+.segunda-sessao{
+    background-color: blanchedalmond;
+    width: 60vw;
+    height: 60vh;
+    // chamando aninhamento
+    div{
+        background-color: rgba(63, 87, 57, 0.585);
+        //colocaremos aqui porcentagem
+        // será sempre relativa ao pai
+        width: 50%;
+        height: 50%;
+    }
+}

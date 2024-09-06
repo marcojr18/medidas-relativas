@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.primeira-sessao {
+  background-color: rgba(224, 207, 23, 0.83);
+  width: 450px;
+  height: 500px;
+}
+.primeira-sessao div {
+  background-color: rgba(34, 161, 87, 0.842);
+  width: 50vw;
+  height: 50vh;
+}
+
+.segunda-sessao {
+  background-color: blanchedalmond;
+  width: 60vw;
+  height: 60vh;
+}
+.segunda-sessao div {
+  background-color: rgba(63, 87, 57, 0.585);
+  width: 50%;
+  height: 50%;
+}/*# sourceMappingURL=style.css.map */
